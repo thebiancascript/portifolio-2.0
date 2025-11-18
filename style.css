@@ -54,7 +54,7 @@ main {
 }
 
 .navbar .nav-links {
-  display: flex; /* --- AJUSTE FEITO --- Garante que os links fiquem visíveis no desktop */
+  display: flex; 
 }
 
 .navbar .nav-links a {
@@ -70,7 +70,7 @@ main {
 }
 
 .hamburger {
-  display: none; /* --- AJUSTE FEITO --- Escondido por padrão no desktop */
+  display: none;
   font-size: 1.5rem;
   background: none;
   border: none;
@@ -96,7 +96,7 @@ main {
   background-repeat: no-repeat;
 }
 
-/* --- NOVO: Container para alinhar texto e imagem no Hero --- */
+
 .hero-content {
   display: flex;
   align-items: center;
@@ -139,7 +139,7 @@ main {
 
 
 /* --- SEÇÕES 'ABOUT', 'SKILLS', 'PROJECTS', ETC. --- */
-/* (Todo o resto do seu código que já estava bom continua aqui, sem alterações) */
+
 .about {
   background-color: #f8f9fa;
 }
@@ -174,11 +174,10 @@ main {
   margin-bottom: 1rem;
 }
 .about-image {
-  max-width: 400px; /* Defina um tamanho fixo ou use porcentagem */
+  max-width: 400px;
   width: 45%;
-  aspect-ratio: 1 / 1; /* Força o container a ser um quadrado perfeito */
-  border-radius: 50%; /* A mágica que o transforma em círculo */
-  overflow: hidden; /* Essencial para cortar a imagem */
+  border-radius: 50%;
+  overflow: hidden;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.4s ease;
 }
@@ -369,14 +368,14 @@ main {
   color: #333;
   text-decoration: underline;
 }
-/* No seu arquivo style.css */
+
 
 .contact {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centraliza verticalmente */
-  align-items: center;     /* Centraliza horizontalmente */
-  min-height: 85vh; /* Faz a seção ocupar 85% da altura da tela */
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
   text-align: center;
 }
 
@@ -384,7 +383,7 @@ main {
   max-width: 800px;
   margin: auto;
 }
-/* Os outros estilos de .contact h2, p, etc., continuam os mesmos */
+
 .contact h2 {
   color: #08ed08;
   font-size: 2.5rem;
@@ -399,7 +398,7 @@ main {
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 2rem; /* Aumenta o espaço entre os ícones */
+  gap: 2rem;
 }
 .social-icon {
   display: flex;
@@ -513,7 +512,8 @@ main {
 }
 
 
-/* --- AJUSTE RESPONSIVIDADE --- */
+/* --- Ajuste responsividade --- */
+
 @media (max-width: 992px) {
   .curriculum-card {
     flex-direction: column;
@@ -524,21 +524,19 @@ main {
   }
 }
 
-/* =============================
-   MENU HAMBURGER MOBILE
-   ============================= */
+/* Menu hamburguer */
 @media screen and (max-width: 768px) {
 
-  /* Hamburger visível */
+  
   .hamburger {
     display: block;
-    position: fixed; /* fixo na tela */
+    position: fixed;
     top: 20px;
     right: 20px;
     width: 30px;
     height: 25px;
     cursor: pointer;
-    z-index: 1100; /* acima do menu */
+    z-index: 1100;
   }
 
   .hamburger .line {
@@ -553,16 +551,16 @@ main {
   .nav-links {
     display: flex;
     flex-direction: column;
-    justify-content: center;  /* centraliza verticalmente */
-    align-items: center;      /* centraliza horizontalmente */
-    background: rgba(0, 0, 0, 0.95); /* fundo quase preto */
-    position: fixed;          /* fixa na tela inteira */
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.95);
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
     text-align: center;
-    transform: translateX(100%); /* escondido à direita */
+    transform: translateX(100%);  /* esconde */
     transition: transform 0.3s ease;
     z-index: 1000;
   }
@@ -583,9 +581,10 @@ main {
     color: #fff;
   }
 
-  /* --- INÍCIO DO CONTEÚDO QUE ESTAVA FORA --- */
+
   
   /* Ajustes gerais para hero e about */
+
   .hero-content, .about-content {
     flex-direction: column;
     text-align: center;
@@ -605,7 +604,7 @@ main {
   }
 
   .hero p {
-    font-size: 1.1rem; /* Ajustei, pois 1.5rem era maior que no desktop */
+    font-size: 1.1rem;
   }
 
 }
