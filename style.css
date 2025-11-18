@@ -283,23 +283,23 @@ main {
   display: flex;
 }
 .projects h2 {
-  color: #333;
+  color: #6c2bd9;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 .projects-subtitle {
-  color: #08ed08;
+  color: #000000;
   font-size: 1.1rem;
   max-width: 600px;
   margin: 0 auto 3rem auto;
-}
+} 
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
 }
 .project-card {
-  background: #fff;
+  background: #000000;
   border-radius: 12px;
   border: 1px solid #e9ecef;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
@@ -335,12 +335,12 @@ main {
   flex-grow: 1;
 }
 .project-title {
-  color: #333;
+  color: #ffffff;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 .project-description {
-  color: #555;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 .project-tags {
