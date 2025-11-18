@@ -5,8 +5,8 @@ Bem-vindo ao meu portfólio online! Aqui você encontra meus projetos, habilidad
 --- 
 
 ## 🤝 Contato
-- **LinkedIn:** [linkedin.com/in/biancasobral](#)  
-- **Email:** bianca.sobral@email.com  
+- **LinkedIn:** [https://www.linkedin.com/in/bsobral0327/](#)  
+- **Email:** biancaferreirasobral@gmail.com
 - **GitHub:** [github.com/thebiancascript](https://github.com/thebiancascript)
 
 ---
