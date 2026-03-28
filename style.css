@@ -1,4 +1,19 @@
 /* Reset e base */
+
+  *, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -532,7 +547,6 @@ main {
 /* Menu hamburguer */
 @media screen and (max-width: 768px) {
 
-  
   .hamburger {
     display: block;
     position: fixed;
